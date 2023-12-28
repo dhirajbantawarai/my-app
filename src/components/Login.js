@@ -1,4 +1,5 @@
 
+<<<<<<< HEAD
 import React, { useState } from "react";
 
 export function Login() {
@@ -11,6 +12,9 @@ export function Login() {
     console.log("Username:", username, "Password:", password);
   };
 
+=======
+export const Login = () => {
+>>>>>>> 527e64b59a4bc0bd913bcb4b3963ab45db7320a6
   return (
     <div className="login-page">
       <h2>Login</h2>
