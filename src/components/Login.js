@@ -34,7 +34,9 @@ export const Login = () => {
             />
           </div>
           <button type="submit">Login</button>
-          <a href="#" className="forget-password">Forget password?</a>
+          <a href="#" className="forget-password">
+            Forget password?
+          </a>
         </form>
       </div>
     </>

@@ -36,6 +36,10 @@ button[type="submit"] {
 .forget-password {
   float: right;
   font-size: 15px;
-  color: #0829be; /* Darker text color */
+  color: #0829be;
   text-decoration: none;
+}
+
+.forget-password:hover {
+  text-decoration: underline;
 }
