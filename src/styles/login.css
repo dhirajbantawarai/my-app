@@ -1,10 +1,10 @@
-/* login-page.css */
-.login {
-  width: 300px;
+.login-page {
   margin: 0 auto;
-  padding: 20px;
+  margin-top: 50px;
+  width: 500px;
   border: 1px solid #ccc;
   border-radius: 5px;
+  padding: 20px;
 }
 
 .form-group {
@@ -32,4 +32,10 @@ button[type="submit"] {
   border: none;
   border-radius: 3px;
   cursor: pointer;
+}
+.forget-password {
+  float: right;
+  font-size: 15px;
+  color: #0829be; /* Darker text color */
+  text-decoration: none;
 }
