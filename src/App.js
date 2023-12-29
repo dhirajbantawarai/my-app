@@ -5,6 +5,7 @@ import { Home } from "./components/Home";
 import { Login } from "./components/Login";
 import { Contact } from "./components/Contact";
 import { Header } from "./components/Header";
+import { Footer } from "./components/Footer";
 
 import { index } from "./components";
 
@@ -17,7 +18,7 @@ function App() {
           <Route path="/" element={<Home />}></Route>
           <Route path="/login" element={<Login />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
-       
+          <Route path="/footer" element={<Footer />}></Route>
         </Routes>
       </Router>
     </>
