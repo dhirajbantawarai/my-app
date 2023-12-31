@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink, useNavigate } from "react-router-dom";
+// import { NavLink, useNavigate } from "react-router-dom";
 import "../styles/nav.css";
 export const Navbar = () => {
   return (
@@ -8,7 +8,7 @@ export const Navbar = () => {
         <a href="./Home"><button >Home</button></a>
         <a href="./Contact"><button >Contact</button></a>
         <a href="./Login"><button >Login</button></a>
-        <a href="*"><button >About Us</button></a>
+        <a href="./Aboutus"><button >About Us</button></a>
         
         
 
