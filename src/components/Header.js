@@ -1,13 +1,15 @@
 import React from 'react'
 import { Navbar } from './Navbar'
-
+import "../styles/header.css";
 
 export const Header = () => {
   return (
     <>
-    <h1>Logo or title</h1>
+    <div className="img">
+   <img src="./images/E-park.png" alt="logo" />
+   </div>
     <Navbar/>
     </>
 
-  )
+  );
 }
