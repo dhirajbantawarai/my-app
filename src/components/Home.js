@@ -16,7 +16,7 @@ export const Home = () => {
 
           <a href="/login"><button>Login</button></a>
           
-          <a href="/login"><button>SignUp</button></a>
+          <a href="/signup"><button>SignUp</button></a>
           </div>
         </div>
         <div className="column-right">
