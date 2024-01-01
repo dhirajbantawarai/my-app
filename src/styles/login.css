@@ -1,13 +1,16 @@
+
+
 .login-page {
   margin: 0 auto;
   margin-top: 50px;
-  width: 500px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
+  width: auto;
+  margin-bottom: 10px;
   padding: 20px;
+  height: 700px;
 }
 
 .form-group {
+  
   margin-bottom: 15px;
 }
 

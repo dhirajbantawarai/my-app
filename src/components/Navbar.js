@@ -4,29 +4,20 @@ import "../styles/nav.css";
 export const Navbar = () => {
   return (
     <>
-      <div className="navbar">
-        <a href="./Home"><button >Home</button></a>
-        <a href="./Contact"><button >Contact</button></a>
-        <a href="./Login"><button >Login</button></a>
-        <a href="./Aboutus"><button >About Us</button></a>
-        
-        
+    <div className="navbar">
 
-        {/* <ul>
-          <li>
-            <a href="./Home"> Home</a>{" "}
-          </li>
-          <li>
-            <a href="./Login"> Login</a>{" "}
-          </li>
-          <li>
-            <a href="./Contact"> Contact</a>{" "}
-          </li>
-          <li>
-            <a href="#"> About Us</a>{" "}
-          </li>
-        </ul> */}
+      <div className="logo">
+        <h2 >E-park </h2>
+      </div> 
+      <div>
+
+      <ul>
+        <li><a className="active" href="\">Home</a></li>
+        <li><a href="/contact">Contact</a></li>
+        <li><a href="/aboutus">About</a></li>
+      </ul>
       </div>
+    </div>
     </>
   );
 };
